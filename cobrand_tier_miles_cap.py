@@ -35,8 +35,8 @@ with col1:
         st.write(transactions.head())
        #opening the image
 
-        image = Image.open("C:/Users/s428545/OneDrive - Emirates Group/Documents/ipython_stuff/skywards-jira/skya1603/master/images/double-chevron.png")
-        st.image(image, width=100)
+#         image = Image.open("C:/Users/s428545/OneDrive - Emirates Group/Documents/ipython_stuff/skywards-jira/skya1603/master/images/double-chevron.png")
+#         st.image(image, width=100)
 
 
 with col2:
@@ -50,8 +50,8 @@ with col2:
 
         st.write(df.head())     
 
-        image = Image.open("C:/Users/s428545/OneDrive - Emirates Group/Documents/ipython_stuff/skywards-jira/skya1603/master/images/double-chevron.png")
-        st.image(image, width=100)
+#         image = Image.open("C:/Users/s428545/OneDrive - Emirates Group/Documents/ipython_stuff/skywards-jira/skya1603/master/images/double-chevron.png")
+#         st.image(image, width=100)
 
 
 st.session_state.bool_val = st.session_state.get('bool_val', False)
